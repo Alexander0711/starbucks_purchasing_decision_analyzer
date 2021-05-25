@@ -34,6 +34,8 @@ Dataset "transcript.json" - describes customer purchases and offers received
 With the data from this dataset, we will create a detailed analysis of the customers and link them to the offers and transactions.
 The aim is to find out which potential customers should be addressed best by Starbucks.
 
+<a id='run'></a>
+
 ## 3. Run the Project
 
 The program for accessing the data, cleaning and analyzing the data is written in a Python Jypyter notebook.
