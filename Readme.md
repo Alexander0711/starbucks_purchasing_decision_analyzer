@@ -102,3 +102,48 @@ The project uses **Python 3.7** and additional libraries:
 The problem that we chose to solve was to understand the customer of the Starbucks rewards mobile application better.
 We also wanted to develop insights from the three data sets, which we can only obtain through a combination of the three data sets.
 
+Here some insights from the graphs out of the program code: 
+
+**_Graph 1_**
+
+![Screen](graphs/G1_Age_Distribution.png)
+
+**_Graph 2_**
+
+![Screen](graphs/G2_Age_Distribution_Mean_Median.png)
+
+**_Graph 3_**
+
+![Screen](graphs/G3_Income.png)
+
+**_Graph 4_**
+
+![Screen](graphs/G4_Gender.png)
+
+**_Graph 5_**
+
+![Screen](graphs/G5_Age_Gender.png)
+
+**_Graph 6_**
+
+![Screen](graphs/G6_Income_Male.png)
+
+**_Graph 7_**
+
+![Screen](graphs/G7_Income_Female.png)
+
+**_Graph 8_**
+
+![Screen](graphs/G8_Merged_Data.png)
+
+**_Graph 9_**
+
+![Screen](graphs/G9_Offer_Status.png)
+
+**_Graph 10_**
+
+![Screen](graphs/G10_Members_Year_Gender.png)
+
+
+
+
