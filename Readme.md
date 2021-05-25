@@ -10,7 +10,6 @@
 - [File Structure](#files)
 - [Software Requirements](#sw_requirements)
 - [Conclusion](#conclusion)
-- [Links](#links)
 
 
 <a id='overview'></a>
@@ -39,33 +38,26 @@ The aim is to find out which potential customers should be addressed best by Sta
 
 The program for accessing the data, cleaning and analyzing the data is written in a Python Jypyter notebook.
 
-**_Screenshot 1_**
-
-![Screen](images/Screenshot1.png)
 
 <a id='access'></a>
 
 ### 3.1. Access to the data
 
-Rxxx
-
-To run ETL pipeline that cleans data and stores in database:
 
 ```bat
-python xxx
+1. Download the zip file "data.zip" from the /data folder
+2. Unzip the zip file and save it in a /data directory
+3. Download the file with the extension * .ipynb
+4. Start the * .ipynb in Python from root folder
+5. Follow the program code and comments
 ```
 
 <a id='cleaning'></a>
 
 ### 3.2. Data cleaning
 
-Rxxx
-
-To run ETL pipeline that cleans data and stores in database:
-
-```bat
-python xxx
-```
+Before we can start with the Exploratory Data Analysis (EDA), the dataset still needs to be cleaned.
+The cleaning of the data is documented directly in the program code and was carried out in three phases.
 
 
 <a id='files'></a>
@@ -74,21 +66,15 @@ python xxx
 
 <pre>
 .
-├── app
-│   ├── run.py------------------------# FLASK FILE THAT RUNS APP
-│   ├── templates
-│       ├── go.html-------------------# CLASSIFICATION RESULT PAGE
-│       └── master.html---------------# MAIN PAGE OF WEB APP
 ├── data
-│   ├── 
-│   ├── disaster_categories.csv-------# DATA TO PROCESS
-│   ├── disaster_messages.csv---------# DATA TO PROCESS
-│   └── process_data.py---------------# PERFORMS ETL PROCESS
-├── images ---------------------------# PLOTS and SCREENSHOTS
-├── models
-│   └── classifier.pkl----------------# ML MODEL
-│   └── train_classifier.py-----------# PERFORMS CLASSIFICATION TASK
-├──DisasterResponse.db----------------# DATABASE TO SAVE CLEANED DATA
+│   ├── portfolio.json---------------------------------------# ORIGINAL DATA FILE
+│   ├── profile.json-----------------------------------------# ORIGINAL DATA FILE
+│   ├── data_all.csv.zip-------------------------------------# OUTPUT FILE AFTER DATA CLEANING
+│   ├── data.zip---------------------------------------------# ALL INPUT DATA AS ZIP
+├── graphs---------------------------------------------------# GRAPHS FROM PROGRAM CODE
+├── screenshots----------------------------------------------# PLOTS and SCREENSHOTS
+├──starbucks_purchasing_decision_analyzer.ipynb--------------# PROGRAM CODE IN JUPYTER NOTEBOOK
+├──starbucks_purchasing_decision_analyzer.html---------------# PROGRAM CODE in HTML
 │
 </pre>
 
