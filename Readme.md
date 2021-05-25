@@ -3,14 +3,10 @@
 ## Table of Content
 
 - [Project Overview](#overview)
-- [Project Software Stack](#stack)
-  - [ETL Pipeline](#etl_pipeline)
-  - [ML Pipeline](#ml_pipeline)
-  - [Flask Web App](#flask)
+- [Problem statement](#problem)
 - [Run the Project](#run)
+  - [Access the data](#access)
   - [Data Cleaning](#cleaning)
-  - [Training ML Classifier](#training)
-  - [Run the Web App](#runapp)
 - [File Structure](#files)
 - [Software Requirements](#sw_requirements)
 - [Conclusion](#conclusion)
@@ -21,40 +17,35 @@
 
 ## 1. Project Overview
 
+This data analytics project is part of the Udacity Data Science Nano Degree (DSND) program. This data set contains data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app.
+An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
+<a id='problem'></a>
 
-<a id='stack'></a>
+## 2. Problem statement
 
-## 2. Project Software Stack
+Not all users receive the same offer at the same time - and exactly that is the challenge to solve with this three data sets.
 
-The software stack of this project contains three main parts:
+Dataset "profile.json" - contains customer demographic data including their age, gender, income, and when they created an account on the Starbucks rewards mobile application
 
-<a id='etl_pipeline'></a>
+Dataset "portfolio.json" - this file describes the characteristics of each offer, including its duration and the amount a customer needs to spend to complete (difficulty)
 
-### 2.1. ETL Pipeline
+Dataset "transcript.json" - describes customer purchases and offers received, viewed, and completed
 
-
-
-<a id='ml_pipeline'></a>
-
-### 2.2. ML Pipeline
-
-
-<a id='flask'></a>
-
-
+With the data from this dataset, we will create a detailed analysis of the customers and link them to the offers and transactions.
+The aim is to find out which potential customers should be addressed best by Starbucks.
 
 ## 3. Run the Project
 
-Starting with the ETL process t...
+The program for accessing the data, cleaning and analyzing the data is written in a Python Jypyter notebook.
 
 **_Screenshot 1_**
 
 ![Screen](images/Screenshot1.png)
 
-<a id='cleaning'></a>
+<a id='access'></a>
 
-### 3.1. Data Cleaning
+### 3.1. Access to the data
 
 Rxxx
 
@@ -64,9 +55,17 @@ To run ETL pipeline that cleans data and stores in database:
 python xxx
 ```
 
-<a id='training'></a>
+<a id='cleaning'></a>
 
+### 3.2. Data cleaning
 
+Rxxx
+
+To run ETL pipeline that cleans data and stores in database:
+
+```bat
+python xxx
+```
 
 
 <a id='files'></a>
@@ -106,43 +105,13 @@ The project uses **Python 3.7** and additional libraries:
 - _collections_
 - _json_
 - _re_
-- _warnings_
-- _operator_
-- _pickle_
-- _pprint_
-- _flask_
-- _nltk_
 - _plotly_
 - _scikit-learn_
-- _SQLAlchemy_
 
 <a id='conclusion'></a>
 
 ## 6. Conclusion
 
-
-
-**_Screenshot 5_**
-
-![Screen](images/Screenshot5.png)
-
-
-<a id='links'></a>
-
-## 7. Links
-
-Classification Metrics: 
-
-<a href="https://towardsdatascience.com/understanding-data-science-classification-metrics-in-scikit-learn-in-python-3bc336865019" target="_blank">Link to understanding Data Science Classification Metrics in Scikit-Learn in Python </a>
-
-
-Help: 
-
-<a href="https://stackoverflow.com/questions/41967511/removing-non-english-words-from-corpus" target="_blank">Stopwords</a>
-
-
-
-Ideas, Help and Templates: 
-
-<a href="https://github.com/sanjeevai/disaster-response-pipeline" target="_blank">GitHub from Sanjeev Yadav</a>
+The problem that we chose to solve was to understand the customer of the Starbucks rewards mobile application better.
+We also wanted to develop insights from the three data sets, which we can only obtain through a combination of the three data sets.
 
