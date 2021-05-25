@@ -46,13 +46,12 @@ The program for accessing the data, cleaning and analyzing the data is written i
 ### 3.1. Access to the data
 
 
-```bat
 1. Download the zip file "data.zip" from the /data folder
 2. Unzip the zip file and save it in a /data directory
 3. Download the file with the extension * .ipynb
 4. Start the * .ipynb in Python from root folder
 5. Follow the program code and comments
-```
+
 
 <a id='cleaning'></a>
 
